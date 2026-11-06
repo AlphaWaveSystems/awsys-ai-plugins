@@ -1,4 +1,4 @@
-# AWSYS Links for Claude Code and Cursor
+# AWSYS Links for Claude Code, Cursor and Gemini CLI
 
 Use your [AWSYS.CO](https://awsys.co) short links from your AI coding assistant:
 shorten URLs with custom slugs, make QR codes, read click statistics by country,
@@ -34,6 +34,15 @@ Manual setup: add this to `~/.cursor/mcp.json` (or `.cursor/mcp.json` in a proje
 { "mcpServers": { "awsys": { "url": "https://awsys.co/mcp" } } }
 ```
 
+## Gemini CLI
+
+```bash
+gemini extensions install https://github.com/AlphaWaveSystems/awsys-ai-plugins
+```
+
+Or without the extension: `gemini mcp add --transport http awsys https://awsys.co/mcp`.
+The first tool call opens the AWSYS sign-in in your browser.
+
 ## Other assistants
 
 ChatGPT, Claude.ai, VS Code / GitHub Copilot, Grok, Gemini CLI, Perplexity and
@@ -61,6 +70,7 @@ AWSYS only acts on your own account. Disconnect at any time in
 |---|---|
 | `.claude-plugin/plugin.json`, `.claude-plugin/marketplace.json`, `.mcp.json` | Claude Code |
 | `.cursor-plugin/plugin.json`, `mcp.json` | Cursor |
-| `assets/logo.png` | both |
+| `gemini-extension.json` | Gemini CLI |
+| `assets/logo.png` | all |
 
 Maintained in the AWSYS monorepo under `integrations/ai-plugins/` and mirrored here.

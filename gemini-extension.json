@@ -1,0 +1,10 @@
+{
+  "name": "awsys-links",
+  "version": "1.0.0",
+  "description": "AWSYS.CO short links, QR codes and click stats from Gemini CLI (hosted MCP server, OAuth sign-in).",
+  "mcpServers": {
+    "awsys": {
+      "httpUrl": "https://awsys.co/mcp"
+    }
+  }
+}
