@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "awsys": { "type": "http", "url": "https://awsys.co/mcp" }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "awsys",
+  "description": "AWSYS.CO plugins for Claude Code",
+  "owner": { "name": "Alpha Wave Systems", "email": "support@awsys.co", "url": "https://awsys.co" },
+  "plugins": [
+    {
+      "name": "awsys-links",
+      "source": "./",
+      "description": "AWSYS.CO short links, QR codes and click stats (remote MCP server, OAuth sign-in)",
+      "category": "productivity"
+    }
+  ]
+}

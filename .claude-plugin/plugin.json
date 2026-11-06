@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "awsys-links",
+  "displayName": "AWSYS Links",
+  "version": "1.0.0",
+  "description": "Create and manage AWSYS.CO short links from Claude: shorten URLs with custom slugs, make QR codes, read click statistics, and organize links into folders, tags and UTM templates. Every destination is checked against Google Safe Browsing.",
+  "author": { "name": "Alpha Wave Systems", "email": "support@awsys.co", "url": "https://awsys.co" },
+  "homepage": "https://awsys.co/features/ai-assistants",
+  "repository": "https://github.com/AlphaWaveSystems/awsys-ai-plugins",
+  "license": "MIT",
+  "keywords": ["url-shortener", "short-links", "qr-code", "link-analytics", "utm", "mcp"],
+  "icon": "./assets/logo.png",
+  "documentationUrl": "https://awsys.co/help/mcp-connector",
+  "supportUrl": "https://awsys.co/support",
+  "privacyPolicyUrl": "https://awsys.co/privacy",
+  "termsOfServiceUrl": "https://awsys.co/terms"
+}
